@@ -1,0 +1,328 @@
+body{
+    background-color: #c8c5b6;
+}
+h1{
+    color: #0b9ead;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    margin: 50px;
+    
+}
+h2{
+    color: #d3614b;
+    font-family: 'Electrolize', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin: 50px;
+    
+}
+
+#iconuser{
+    color: #0b9ead;
+}
+
+#FormCrear{
+    background-color: #e5e1cd;
+    width: 700px;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+}
+#ListaEquipos{
+    background-color: #e5e1cd;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    
+}
+#Lista{
+   border-color: #c8c5b6;
+   border: 3px solid #c8c5b6;
+}
+th{
+    font-family: 'Aldrich', sans-serif;
+    color: #0b9ead;
+    font-size: 20px;
+}
+
+td{
+    font-family: 'Electrolize', sans-serif;
+    color: #6a644d;
+    font-size: 15px;
+
+}
+#MenuPrincipal:hover{
+    background-color: #6a644d;
+    width: 200px;
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+    text-align: left;
+    border: 3px solid #e5e1cd;
+}
+#MenuPrincipal{
+    background-color: #e5e1cd;
+    width: 200px;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    text-align: left;
+    border: 3px solid #6a644d;
+}
+
+#btncrear{
+    background-color: #6a644d;
+    width: 220px;
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+    text-align: left;
+    border: 3px solid #c8c5b6;
+}
+#btncrear:hover{
+    background-color: #e5e1cd;
+    width: 220px;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    text-align: left;
+    border: 3px solid #6a644d;
+}
+
+#btncrear2{
+    background-color: #6a644d;
+    width: 100px;
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+    text-align: left;
+    border: 3px solid #c8c5b6;
+}
+#btncrear2:hover{
+    background-color: #e5e1cd;
+    width: 100px;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    text-align: left;
+    border: 3px solid #6a644d;
+}
+
+#btncrear3:hover{
+    background-color: #d3614b;
+    width: 220px;
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+    text-align: left;
+    border: 3px solid #c8c5b6;
+}
+#btncrear3{
+    background-color: #e5e1cd;
+    width: 220px;
+    font-family: 'Aldrich', sans-serif;
+    color: #d3614b;
+    text-align: left;
+    border: 3px solid #6a644d;
+}
+
+#btnmod{
+    background-color: #e5e1cd;
+    width: 40px;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    text-align: center;
+    border: 2px solid #6a644d;
+}
+#btnmod:hover{
+    background-color: #6a644d;
+    width: 40px;
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+    text-align: center;
+    border: 2px solid #c8c5b6;
+
+}
+
+#paginacion{
+    background-color: #c8c5b6;
+    border: 3px solid #c8c5b6;
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+
+}
+
+.page-item{
+    border: 2px solid #c8c5b6;
+    background-color: #6a644d;
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+
+}
+.page-item:active{
+    border: 2px solid #c8c5b6;
+    background-color: #e5e1cd;
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+
+}
+.page-link{
+    
+    background-color: #6a644d;
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+
+}
+.page-item.active .page-link{
+  
+    background-color: #e5e1cd;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+
+}
+
+
+.page-item.disabled .page-link {
+    border: 2px solid #6a644d;
+    background-color: #e5e1cd;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+}
+.page-link:hover{
+    background-color: #e5e1cd;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+
+}
+
+#int{
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    font-size: 15px;
+    border: 3px solid #6a644d;
+    background-color: #c8c5b6;
+}
+
+#barra{
+    background-color: #e5e1cd;
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+}
+#barra2{
+    background-color: #e5e1cd;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+}
+#logout{
+    background-color: #e5e1cd;
+    font-family: 'Aldrich', sans-serif;
+    color: #d3614b;
+}
+
+#msg{
+    font-family: 'Aldrich', sans-serif;
+}
+
+#int2{
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    font-size: 15px;
+    border: 3px solid #6a644d;
+    background-color: #e5e1cd;
+}
+#int3{
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+}
+
+
+
+
+
+/*body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e1cd;
+    width: 100%;
+   
+}
+
+#Formlogin{
+    width: 400px;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    font-size: 15px;
+    text-align: left;
+    margin: 10px;
+   
+}
+
+#Formregister{
+    width: 400px;
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    font-size: 15px;
+    text-align: left;
+    margin: 10px;
+    
+    
+   
+}
+
+h1{
+    color: #0b9ead;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 50px;
+    text-align: left;
+    margin: 50px;
+    
+}
+#usertxt{
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    font-size: 15px;
+    border: 3px solid #6a644d;
+    background-color: #c8c5b6;
+}
+#logintxt{
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    font-size: 15px;
+    border: 3px solid #6a644d;
+    background-color: #c8c5b6;
+}
+
+#btncrear:hover{
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+    margin-top: 10px;
+    font-size: 15px;
+    border: 3px solid #c8c5b6;
+    background-color: #6a644d;
+}
+#btncrear{
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    margin-top: 10px;
+    font-size: 15px;
+    border: 3px solid #6a644d;
+    background-color: #e5e1cd;
+}
+#btnlogin:hover{
+    font-family: 'Aldrich', sans-serif;
+    color: #e5e1cd;
+    margin-top: 10px;
+    font-size: 15px;
+    border: 3px solid #c8c5b6;
+    background-color: #6a644d;
+}
+#btnlogin{
+    font-family: 'Aldrich', sans-serif;
+    color: #6a644d;
+    margin-top: 10px;
+    font-size: 15px;
+    border: 3px solid #6a644d;
+    background-color: #e5e1cd;
+}
+
+#linkusuario{
+
+    font-family: 'Electrolize', sans-serif;
+    color: #6a644d;
+
+
+
+}
