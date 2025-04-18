@@ -5,7 +5,7 @@
 @section('contenido')
   
 <div>
-    <h1>Crear Equipo <l-helix
+    <h1><i class="bi bi-device-ssd-fill"></i> Crear Equipo <l-helix
       size="25"
       speed="2.0"
       color=#0b9ead 
@@ -13,7 +13,7 @@
   </div>
   <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/grid.js"></script>
 <div id="FormCrear" class="card">
-    <h5 class="card-header text-center"><i class="bi bi-database-add"></i>  Ingrese los datos del Equipo</h5>
+    <h5 class="card-header text-center"><i class="bi bi-device-ssd-fill"></i>  Ingrese los datos del Equipo</h5>
     <div class="card-body">
       
       <p class="card-text">
@@ -33,11 +33,14 @@
             <label for="">Numero Serie:</label>
             <input id="int" type="text" name="numero_serie" class="form-control" required>
             <br>
-            <button id="btncrear2" class="btn btn-primary"><i class="bi bi-database-add"></i> Crear</button>
+            <button id="btncrear2" class="btn btn-primary"><i class="bi bi-device-ssd-fill"></i> Crear</button>
             <hr>
             <a href="{{route('equiposmedicos.index')}}" id="btncrear" class="btn btn-info"><i class="bi bi-arrow-left-circle"></i> Regresar</a>
 
         </form>
+
+
+        
 
       </p>
       

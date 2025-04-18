@@ -21,7 +21,7 @@
 
      <form id="Formlogin"  action="/login" method="POST">
         @csrf
-        <h1>Login</h1><br><br>
+        <h1><i class="bi bi-door-open-fill"></i> Login</h1><br>
         @include('layouts.partials.messages')
         
             <div class="mb-3">
@@ -39,10 +39,10 @@
             
             <div class="mb-3">
                 
-                <a id="btncrear" class="btn btn-primary" href="/register">Crear Usuario Nuevo</a>
+                <a id="btncrear" class="btn btn-primary" href="/register"><i class="bi bi-person-square"></i> Crear Usuario Nuevo</a>
             </div>
             
-            <button id="btncrear"  type="submit" class="btn btn-primary">Login</button>
+            <button id="btncrear"  type="submit" class="btn btn-primary"><i class="bi bi-door-open-fill"></i> Login</button>
 
       </form>
 @endsection

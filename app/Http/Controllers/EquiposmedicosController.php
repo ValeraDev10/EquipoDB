@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\Hojadvida;
 use App\Models\Equiposmedicos;
 use Illuminate\Http\Request;
 
@@ -31,6 +31,24 @@ class EquiposmedicosController extends Controller
         $equiposmedicos->modelo = $request->post('modelo');
         $equiposmedicos->numero_serie = $request->post('numero_serie');
         $equiposmedicos->save();
+
+
+        $hvdato = new Hojadvida();
+        $hvdato->id = $request->post(0000);
+        $hvdato->idEquipo = $request->post('id');
+        $hvdato->tipo_equipo = $request->post('tipo_equipo');
+        $hvdato->nombre = $request->post('nombre');
+        $hvdato->marca = $request->post('marca');
+        $hvdato->modelo = $request->post('modelo');
+        $hvdato->numero_serie = $request->post('numero_serie');
+        $hvdato->fecha_compra = $request->post('fecha_compra');
+        $hvdato->fecha_garantia = $request->post('fecha_garantia');
+        $hvdato->registro_invima = $request->post('registro_invima');
+        $hvdato->estado_garantia = $request->post('estado_garantia');
+        
+        
+
+        $hvdato->save();
 
        
        return redirect()->route("equiposmedicos.index")->with("success","Equipo Creado Con Exito !!!");

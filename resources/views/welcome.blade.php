@@ -7,7 +7,7 @@
 
     @auth
       <div>
-        <h1>Equipos Medicos <l-helix
+        <h1><i class="bi bi-tools"></i> Equipos Medicos <l-helix
           size="25"
           speed="2.0"
           color=#0b9ead 
@@ -27,7 +27,7 @@
             <h5 class="card-title text-center"></h5><br>
             <p>
               <a id="btncrear" href="{{route('equiposmedicos.create')}}" class="btn btn-primary">
-              <i class="bi bi-database-add"></i>  Crear Equipo Nuevo</a>
+                <i class="bi bi-database-add"></i>  Crear Equipo Nuevo</a>
             </p><br>
 
             <div class="row">
@@ -65,7 +65,9 @@
                   <th>Modelo</th>
                   <th>Número Serie</th>
                   <th>Actualizar</th>
+                  <th>Hoja De vida</th>
                   <th>Eliminar</th>
+                  
                 </thead>
                 <tbody>
 
@@ -87,16 +89,29 @@
                         </td>
 
                         <td>
+                          <form action="{{ route('hojadvida.hvshow', $item->id)}}" method="GET">
+
+                            <button id="btnmod" class="btn btn-danger btn-sm"><i class="bi bi-journal-bookmark"></i></button>                          
+            
+                          </form>
+                        </td>
+
+                        <td>
                           <form action="{{ route('equiposmedicos.show', $item->id)}}" method="GET">
 
                             <button id="btnmod" class="btn btn-danger btn-sm"><i class="bi bi-database-dash"></i></button>                          
             
                           </form>
                         </td>
+
+                        
+
+
                     </tr> 
                   @endforeach
                 </tbody>
               </table>
+              <a id="btncrear" class="btn btn-primary" href="/home" ><i class="bi bi-menu-button-wide-fill"></i> Menu Principal</a>
               <hr>
             </div>
             <div id="paginacion" class="row">

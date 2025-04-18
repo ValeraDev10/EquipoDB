@@ -19,7 +19,7 @@
                 @csrf 
                 @method ("PUT")
                 <label for="">id Equipo:</label>
-                <input id="int" type="text" name="id" class="form-control" required value="{{$equiposmedicos->id}}">
+                <input readonly id="int" type="text" name="id" class="form-control" required value="{{$equiposmedicos->id}}">
                 <label for="">Tipo Equipo:</label>
                 <input id="int" type="text" name="tipo_equipo" class="form-control" required value="{{$equiposmedicos->tipo_equipo}}">
                 <label for="">Nombre:</label>

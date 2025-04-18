@@ -19,22 +19,44 @@
        
 
         @auth
+
         
-            <h2>Bienvenido {{auth()->user()->username }}, al Menu Principal Equipos Medicos</h2>
-            <h1>Menu Principal <l-grid size="60"speed="1.5"color= #0b9ead></l-grid></h1>
+            <h2><i class="bi bi-person-fill-check"></i> Bienvenido {{auth()->user()->username }}, al Menu Principal Equipos Medicos</h2>
+            <h1><i class="bi bi-menu-button-wide-fill"></i> Menu Principal <l-grid size="60"speed="1.5"color= #0b9ead></l-grid></h1>
+       
+        
+                    
             
-            <a href="/" id="MenuPrincipal" class="btn btn-primary">
-            <i class="bi bi-tools"></i> Mantenimiento</a>
-            <br>
-            <a href="/" id="MenuPrincipal" class="btn btn-primary">
-            <i class="bi bi-card-checklist"></i> Inventario</a>
+               <section class="layout">
+                <div class="a">
+                    <a href="/" id="MenuPrincipal" class="btn btn-primary">
+                    <i class="bi bi-tools"></i> Mantenimiento</a>
+                    <br>
+                    <a href="/" id="MenuPrincipal" class="btn btn-primary">
+                    <i class="bi bi-card-checklist"></i> Inventario</a>
+                    <br>
+                    
+                    <a href="/Usuarios" id="MenuPrincipal" class="btn btn-primary">
+                        <i class="bi bi-people"></i> Gestión Usuarios</a>
+                    <br>
+                    <a href="/logout" id="MenuPrincipal" class="btn btn-primary">
+                        <i class="bi bi-escape"></i> Salir</a>
+                </div>
+
+                <div class="b">
+                    <i id="MenuLogo" class="bi bi-prescription2"></i>
+                    
+                  
+                </div>
+               </section>
+             
             
+              
+             
             
 
         @endauth
-
         
-
         @guest
             <p>Para ver el contenido debe <a href="/login">Iniciar Sesión</a></p>
           

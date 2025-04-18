@@ -24,9 +24,9 @@
               <ul id="logout" class="dropdown-menu" aria-labelledby="navbarDropdown">
                 
                 <li><hr class="dropdown-divider"></li>
-                <li><a id="logout" class="dropdown-item" href="/home" >Menu Principal</a></li>
+                <li><a id="logout" class="dropdown-item" href="/home" ><i class="bi bi-menu-button-wide-fill"></i> Menu Principal</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a id="logout" class="dropdown-item" href="/logout">Salir</a></li>
+                <li><a id="logout" class="dropdown-item" href="/logout"><i class="bi bi-escape"></i> Salir</a></li>
                 
               </ul>
 
